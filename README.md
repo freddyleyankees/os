@@ -6,7 +6,9 @@ This method watch in linux
 Install virtual machine such as qemu or virtualbox
 install mkdosfs utility
 Go to root project in terminal
-=> $ make build
+
+$ make build
+
 Automatically os is compiled and launght with qemu
 to launght os with virtualbox or other VM take nadia.img building and 
 insert in your new project.
