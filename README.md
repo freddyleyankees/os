@@ -4,7 +4,9 @@
 This method watch in linux
  
 Install virtual machine such as qemu or virtualbox
+
 install mkdosfs utility
+
 Go to root project in terminal
 
 $ make build
