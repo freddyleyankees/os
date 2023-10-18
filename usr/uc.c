@@ -26,13 +26,9 @@ void  main()
     printf("\n*******************************\n");
     printf("*        command line         *\n");
     printf("*******************************\n");
-    unsigned int a;
-    asm volatile("movl %%ebp, %0":"=r"(a):);
-    printf("RPC: %x\n", a);
+    
     int pid = fork();
     
-    asm volatile("movl %%ebp, %0":"=r"(a):);
-    printf("| RPC main: %x |", a);
     printf("i am a process %d\n", getpid());
     exit();
 }
